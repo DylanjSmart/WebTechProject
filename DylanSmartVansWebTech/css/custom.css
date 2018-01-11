@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url(../img/bg_grad.png), url(../img/bg.jpg);
+	background-position: bottom center, top center;
+	background-repeat: no-repeat, repeat;
+	padding-top: 20px;
+}
+
+
+/*
+.jumbotron {
+	border-radius: 10px;
+}*/
+
+footer {
+	background-color: black;
+	color: white;
+	padding: 8px;
+	margin: 0px 0px 25px 0px;
+}
+
+.teasers {
+	margin: 0px 0px 25px 0px;
+}
+
+.vlogo,
+.bannerad {
+	margin-top: 30px;
+}
+
+.bannerad {
+	margin-left: 13px;
+}
+
+.shop,
+blockquote,
+h1,
+th,
+td,
+p,
+li {
+	font-family: arial black;
+}
+
+.shop {
+	font-size: 20pt;
+}
+
+blockquote,
+.doren {
+	background-color: white;
+	border-radius: 10px;
+}
+
+.shopics {
+	border-radius: 10px;
+}
+
+.text {
+	font-size: 15pt;
+}
+
+.founder {
+	margin-right: 4px;
+}
+
+th {
+	font-size: 14pt;
+}
+
+#employment,
+#conference,
+#merchandise,
+#storelocations {
+	margin: 10px 10px 0px 0px;
+}
+
+.help {
+	margin-left: 5px;
+}
+
+.btmimg {
+	margin-right: 0.75rem;
+}
+
+.feeties {
+	margin-top: 10px;
+}
