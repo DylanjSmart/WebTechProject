@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+
+	<title>Vans Responsive Website | Final | Image</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="css/custom.css" rel="stylesheet">
+
+
+	<!-- Bootstrap -->
+	<link href="css/bootstrap.css" rel="stylesheet">
+
+	<script src="js/respond.js"></script>
+</head>
+
+<body>
+
+	<div class="container">
+		<!-- row 1: navigation -->
+
+		<div class="row">
+			<nav class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+				</div>
+				<div class="collapse navbar-collapse" id="collapse">
+					<ul class="nav navbar-nav">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="#">Store</a></li>
+						<li><a href="#">Gallery</a></li>
+						<li><a href="#">Videos</a></li>
+						<li><a href="#">Contact</a></li>
+						<li class="active"><a href="final.html">Final</a></li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+
+
+		<!-- row 2: header -->
+		<header class="row">
+			<div class="col-lg-5 col-sm-5">
+				<a href="index.html"><img src="img/logo.png" class="img-responsive vlogo"></a>
+			</div>
+			<div class="col-lg-7 col-sm-7">
+				<img src="img/banner.jpg" class="img-responsive bannerad">
+			</div>
+		</header>
+
+
+		<!-- row 3: about page content -->
+		<div class="doren">
+			<h1>Final Commit YAY!!!!</h1>
+			<p class="text"><img src="img/wheel.jpg" class="img-responsive img-thumbnail founder pull-right" width="150" height="30">Lorem ipsum dolor sit amet, cu elitr conclusionemque sea, te nam exerci tempor quidam. An pri rebum quando numquam, ei omnis fuisset sea, ceteros mandamus abhorreant nec ne. Qui alia debitis minimum ea. Cu usu veri commodo pertinacia, errem pertinax concludaturque in vix, ne nam hinc virtute aliquando. An adhuc sanctus expetendis pri, pro ferri malis principes in, suas mundi ea vis. Ad cum suscipit volutpat urbanitas. Cu placerat democritum usu, te pri munere signiferumque. Sit in scripta facilisis consulatu, mea duis ignota id, illud melius molestie mei cu. Sumo quot paulo pri cu. Ea pro fabellas probatus definitiones, his meis aliquid ei, rebum euismod ponderum ea vix. Aperiri suscipiantur sed cu. </p>
+		</div>
+		<br />
+
+	</div>
+	<!-- end row 3 -->
+
+	<!-- row 4 -->
+	<footer class="row feeties">
+		<p><small>This isn’t a real website. It was disowned and is no longer functional. It’s markup parents left it and it just doesn’t know how to live on it’s own.</small><br> <small>Please donate to your nearest markup orphanage and support those who can’t support themselves. Call (905) 731-8936 for a free consultation. Welcome home vanny!</small></p>
+	</footer>
+	<!-- end container -->
+
+	<!-- javascript -->
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+	<!-- linking JavaScript file necessary for lightbox in tabs -->
+	<script src="js/ekko-lightbox.min.js"></script>
+
+	<!-- Embedded JavaScript for successful lightbox operation -->
+	<script type="text/javascript">
+		$(document).ready(function($) {
+			$(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
+				event.preventDefault();
+				return $(this).ekkoLightbox();
+			});
+		});
+
+	</script>
+
+</body>
+
+</html>
